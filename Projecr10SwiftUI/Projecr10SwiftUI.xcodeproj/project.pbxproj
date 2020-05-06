@@ -15,6 +15,8 @@
 		05793ACD24625CBF0073F27C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05793ACB24625CBF0073F27C /* LaunchScreen.storyboard */; };
 		05793AD824625CBF0073F27C /* Projecr10SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05793AD724625CBF0073F27C /* Projecr10SwiftUITests.swift */; };
 		05793AE324625CBF0073F27C /* Projecr10SwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05793AE224625CBF0073F27C /* Projecr10SwiftUIUITests.swift */; };
+		05793AF124626BF50073F27C /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05793AF024626BF50073F27C /* Order.swift */; };
+		05793AF3246270E30073F27C /* AddressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05793AF2246270E30073F27C /* AddressView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		05793ADE24625CBF0073F27C /* Projecr10SwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Projecr10SwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		05793AE224625CBF0073F27C /* Projecr10SwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Projecr10SwiftUIUITests.swift; sourceTree = "<group>"; };
 		05793AE424625CBF0073F27C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05793AF024626BF50073F27C /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		05793AF2246270E30073F27C /* AddressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				05793ACB24625CBF0073F27C /* LaunchScreen.storyboard */,
 				05793ACE24625CBF0073F27C /* Info.plist */,
 				05793AC824625CBF0073F27C /* Preview Content */,
+				05793AF024626BF50073F27C /* Order.swift */,
+				05793AF2246270E30073F27C /* AddressView.swift */,
 			);
 			path = Projecr10SwiftUI;
 			sourceTree = "<group>";
@@ -269,7 +275,9 @@
 			files = (
 				05793AC124625CBB0073F27C /* AppDelegate.swift in Sources */,
 				05793AC324625CBB0073F27C /* SceneDelegate.swift in Sources */,
+				05793AF124626BF50073F27C /* Order.swift in Sources */,
 				05793AC524625CBB0073F27C /* ContentView.swift in Sources */,
+				05793AF3246270E30073F27C /* AddressView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
